@@ -28,16 +28,16 @@ function App() {
   
         <ul class="list-group" >
           <li class="list-group-item borderles">
-            <button type="button" href='/form1' class="btn btn-primary">Main Equpments</button>  
+            <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Main Equpments</button>  
           </li>
           <li class="list-group-item">
-            <button type="button" class="btn btn-primary">Auxiliary Equpmen & Subcontractor (Soil)</button> 
+            <button type="button" class="btn btn-primary" onClick={() => window.location = '/A-Main' }>Auxiliary Equpmen & Subcontractor (Soil)</button> 
           </li>
           <li class="list-group-item">
-            <button type="button" class="btn btn-primary">Auxiliary Equpmen & Subcontractor (Coal)</button> 
+            <button type="button" class="btn btn-primary" onClick={() => window.location = '/B-AuxSub' }>Auxiliary Equpmen & Subcontractor (Coal)</button> 
           </li>
           <li class="list-group-item">
-            <button type="button" class="btn btn-primary">Mine Planning</button> 
+            <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Mine Planning</button> 
           </li>        
         </ul>
     </div>
