@@ -1,6 +1,4 @@
 import React from 'react';
-import './App.css';
-import './index.css'
 
 function Form1() {
 
@@ -20,15 +18,9 @@ function Form1() {
   }
   return (
     <div className="App">
-      <h3 class="card-header info-color white-text text-center">
-        <strong>รายงานผลงานประจำวัน โครงการเหมืองขุดและขนดินเหมืองหงสา  สปป.ลาว</strong>
-        <p class="h4"></p>
-        <p class="h4">บริษัท อิตาเลียนไทยหงสา จำกัด</p>
-      </h3>
-      <p class="h4"></p>
-      <p class="h4"></p>
+      
       <p class="h4">Model B: งานขุดและขนดินโดยใช้เครื่องจักรช่วยและจัดจ้างผู้รับเหมา</p>
-      <p class="h4"></p>
+
       <form>  
       <div class="row">
         <div class="col-2 text-right">
@@ -77,7 +69,7 @@ function Form1() {
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="shiftInput" class="col-form-label">Main Equipment</label>
+            <label for="shiftInput" class="col-form-label">Auxiliary Equipment and Subcontractor</label>
           </div>
           <div class="col-3">
             <select id="inputState" class="form-control">

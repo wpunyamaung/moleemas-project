@@ -19,28 +19,20 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h3 class="card-header info-color white-text text-center py-4">
-        <strong>รายงานผลงานประจำวัน โครงการเหมืองขุดและขนดินเหมืองหงสา สปป.ลาว</strong>
-      </h3>
-      <p class="h4 mb-4"></p>
-      <p class="h4 mb-4">บริษัท อิตาเลียนไทยหงสา จำกัด</p>
-  
-        <ul class="list-group" >
-          <li class="list-group-item borderles">
-            <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Main Equpments</button>  
-          </li>
-          <li class="list-group-item">
-            <button type="button" class="btn btn-primary" onClick={() => window.location = '/A-Main' }>Auxiliary Equpmen & Subcontractor (Soil)</button> 
-          </li>
-          <li class="list-group-item">
-            <button type="button" class="btn btn-primary" onClick={() => window.location = '/B-AuxSub' }>Auxiliary Equpmen & Subcontractor (Coal)</button> 
-          </li>
-          <li class="list-group-item">
-            <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Mine Planning</button> 
-          </li>        
-        </ul>
-    </div>
+      <ul class="list-group" >
+        <li class="list-group-item borderles">
+          <button type="button" class="btn btn-primary" onClick={() => window.location = '/A-Main' }>Main Equpments</button>  
+        </li>
+        <li class="list-group-item">
+          <button type="button" class="btn btn-primary" onClick={() => window.location = '/B-AuxSub' }>Auxiliary Equpmen & Subcontractor (Soil)</button> 
+        </li>
+        <li class="list-group-item">
+          <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Auxiliary Equpmen & Subcontractor (Coal)</button> 
+        </li>
+        <li class="list-group-item">
+          <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Mine Planning</button> 
+        </li>        
+      </ul>
   );
 }
 

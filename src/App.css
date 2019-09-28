@@ -38,3 +38,22 @@ a.btn.btn-primary, a.btn :hover  {
 li.borderless {
   border-top: 0 none;
 }
+
+
+/*===  A-Main.js ===*/
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.banner .logo, .banner .company {
+  padding: 20px;
+}
+
+
+
+
+
+

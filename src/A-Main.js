@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import './index.css'
+import $ from 'jquery';
 
 function Form1() {
+  // let state = {
+  //   shift: '',
+  //   date: '',
+  //   production: '',
+  //   no: '',
+  //   checkerName: '',
+  //   mainEquipment: '',
+  //   numberOfTrip: ''
+  // }
+    const [aMain, setAmain] = useState();
+    const [shift, setShift] = useState('');
+    const [date, setDate] = useState('');
+    const [production, setProduction] = useState('');
+    const [no, setNo] = useState(0);
 
   var onSubmit = function(){
     alert('test')
@@ -18,75 +33,84 @@ function Form1() {
       })
     })
   }
+
+  let onDisableTrip = () => {
+    let equipType = $('#txtMainEquip')[0].value;
+    console.log(equipType)
+    $("#txtNumberOfTrip").prop('disabled', (equipType !== 'semi'));
+  }
+
+  let onChangeProduction = () => {
+    let equipType = $('#txtMainEquip')[0].value;
+    let numberOfTrip = parseInt($('#txtNumberOfTrip')[0].value)
+    console.log(equipType)
+    console.log(numberOfTrip)
+    $("#txtProduction").val((numberOfTrip * 40), (numberOfTrip !== ''));
+  }
+  // window.onload = () => {
+  //   $('.datepicker').datepicker();
+  // }
+  
   return (
     <div className="App">
-      <h3 class="card-header info-color white-text text-center">
-        <strong>รายงานผลงานประจำวัน โครงการเหมืองขุดและขนดินเหมืองหงสา  สปป.ลาว</strong>
-        <p class="h4"></p>
-        <p class="h4">บริษัท อิตาเลียนไทยหงสา จำกัด</p>
-      </h3>
-      <p class="h4"></p>
-      <p class="h4"></p>
-      <p class="h4">Model A: งานขุดและขนดินโดยใช้เครื่องจักรหลัก</p>
-      <p class="h4"></p>
+
+      <p class="h4">Model B: งานขุดและขนดินโดยใช้เครื่องจักรช่วยและจัดจ้างผู้รับเหมา</p>
+
       <form>
       <div class="row">
         <div class="col-2 text-right">
-          <label for="shiftInput" class="col-form-label">Shift</label>
+          <label for="txtShift" class="col-form-label">Shift</label>
         </div>
         <div class="col-3">
-          <select id="inputState" class="form-control">
+          <select id="txtShift" class="form-control">
             <option selected>Choose...</option>
             <option>Day</option>
             <option>Night</option>
           </select>
         </div>
         <div class="col-2 text-right">
-          <label for="shiftInput" class="col-form-label">Date</label>
+          <label for="txtDate" class="col-form-label">Date</label>
         </div>
         <div class="col-3">
-          <select id="inputState" class="form-control">
-            <option selected>Date/Month/Year</option>
-            <option>....</option>
-            <option>....</option>
-          </select>
+          <input data-provide="datepicker" />
+          <input type="date" id="txtDate" />
         </div>
       </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="shiftInput" class="col-form-label">Product</label>
+            <label for="txtProduct" class="col-form-label">Product</label>
           </div>
           <div class="col-3">
-            <select id="inputState" class="form-control">
+            <select id="txtProduct" class="form-control">
               <option selected>Choose...</option>
               <option>Soil</option>
             </select>
           </div>
           <div class="col-2 text-right">
-            <label for="shiftInput" class="col-form-label">Checker Name</label>
+            <label for="txtCheckName" class="col-form-label">Checker Name</label>
           </div>
           <div class="col-3">
-            <input type="text" class="form-control" id="checkerNameInput" placeholder=""/>
+            <input type="text" class="form-control" id="txtCheckName" placeholder=""/>
           </div>
         </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="shiftInput" class="col-form-label">Main Equipment</label>
+            <label for="txtMainEquip" class="col-form-label">Main Equipment</label>
           </div>
           <div class="col-3">
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>Semi Mobile Crusher</option>
-              <option>Bucket Wheel Excavator</option>
+            <select id="txtMainEquip" class="form-control" onChange={ onDisableTrip }>
+              <option value=''>Choose...</option>
+              <option value='semi'>Semi Mobile Crusher</option>
+              <option value='bucket'>Bucket Wheel Excavator</option>
             </select>
           </div>
           <div class="col-2 text-right">
-            <label for="shiftInput" class="col-form-label">No.</label>
+            <label for="txtNo" class="col-form-label">No.</label>
           </div>
           <div class="col-3">
-            <select id="inputState" class="form-control">
+            <select id="txtNo" class="form-control">
               <option selected>Choose...</option>
               <option>1</option>
               <option>2</option>
@@ -97,10 +121,10 @@ function Form1() {
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="numberOfTripInput" class="col-form-label">Number Of Trip</label>
+            <label for="txtNumberOfTrip" class="col-form-label">Number Of Trip</label>
           </div>
           <div class="col-3">
-          <input type="text" class="form-control" id="numberOfTripInput" placeholder=""/>
+          <input type="text" class="form-control text-right" id="txtNumberOfTrip" placeholder="" onChange= { onChangeProduction }/>
           </div>
           <div class="col-2 text-right">
           </div>
@@ -110,10 +134,10 @@ function Form1() {
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="productionInput" class="col-form-label">Production</label>
+            <label for="txtProduction" class="col-form-label">Production</label>
           </div>
           <div class="col-3">
-          <input type="text" class="form-control" id="ProductionInput" placeholder=""/>
+          <input type="text" class="form-control text-right" id="txtProduction" placeholder=""/>
           </div>
           <div class="col-2 text-left">
             <label for="bcmInput" class="col-form-label">BCM</label>
@@ -127,3 +151,9 @@ function Form1() {
 }
 
 export default Form1;
+
+
+/**
+ * NOTE:
+ * https://itnext.io/add-state-and-lifecycle-methods-to-function-components-with-react-hooks-8e2bdc44d43d
+ */
