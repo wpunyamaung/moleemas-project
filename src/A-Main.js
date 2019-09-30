@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import $ from 'jquery';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 import './App.css';
 import './index.css'
-import $ from 'jquery';
 
 function Form1() {
   // let state = {
@@ -47,59 +50,59 @@ function Form1() {
     console.log(numberOfTrip)
     $("#txtProduction").val((numberOfTrip * 40), (numberOfTrip !== ''));
   }
-  // window.onload = () => {
-  //   $('.datepicker').datepicker();
-  // }
-  
+
+  let handleChange = (date) => {
+    setDate(date)
+  }
+
   return (
     <div className="App">
 
-      <p class="h4">Model B: งานขุดและขนดินโดยใช้เครื่องจักรช่วยและจัดจ้างผู้รับเหมา</p>
+      <p class="title">Model B: งานขุดและขนดินโดยใช้เครื่องจักรช่วยและจัดจ้างผู้รับเหมา</p>
 
       <form>
       <div class="row">
         <div class="col-2 text-right">
-          <label for="txtShift" class="col-form-label">Shift</label>
+          <label htmlFor="txtShift" class="col-form-label">Shift</label>
         </div>
-        <div class="col-3">
+        <div class="col-4">
           <select id="txtShift" class="form-control">
-            <option selected>Choose...</option>
-            <option>Day</option>
-            <option>Night</option>
+            <option value='' selected>Choose...</option>
+            <option value='day'>Day</option>
+            <option value='night'>Night</option>
           </select>
         </div>
         <div class="col-2 text-right">
-          <label for="txtDate" class="col-form-label">Date</label>
+          <label htmlFor="txtDate" class="col-form-label">Date</label>
         </div>
-        <div class="col-3">
-          <input data-provide="datepicker" />
-          <input type="date" id="txtDate" />
+        <div class="col-4 text-left">
+          <DatePicker className="form-control col-12" selected={ date } onChange={ handleChange } />
         </div>
       </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="txtProduct" class="col-form-label">Product</label>
+            <label htmlFor="txtProduct" class="col-form-label">Product</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <select id="txtProduct" class="form-control">
-              <option selected>Choose...</option>
-              <option>Soil</option>
+              <option value='' selected>Choose...</option>
+              <option value='soil'>Soil</option>
             </select>
           </div>
           <div class="col-2 text-right">
-            <label for="txtCheckName" class="col-form-label">Checker Name</label>
+            <label htmlFor="txtCheckName" class="col-form-label">Checker Name</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <input type="text" class="form-control" id="txtCheckName" placeholder=""/>
           </div>
         </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="txtMainEquip" class="col-form-label">Main Equipment</label>
+            <label htmlFor="txtMainEquip" class="col-form-label">Main Equipment</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <select id="txtMainEquip" class="form-control" onChange={ onDisableTrip }>
               <option value=''>Choose...</option>
               <option value='semi'>Semi Mobile Crusher</option>
@@ -107,42 +110,42 @@ function Form1() {
             </select>
           </div>
           <div class="col-2 text-right">
-            <label for="txtNo" class="col-form-label">No.</label>
+            <label htmlFor="txtNo" class="col-form-label">No.</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <select id="txtNo" class="form-control">
-              <option selected>Choose...</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
+              <option value='' selected>Choose...</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
             </select>
           </div>
         </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="txtNumberOfTrip" class="col-form-label">Number Of Trip</label>
+            <label htmlFor="txtNumberOfTrip" class="col-form-label">Number Of Trip</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
           <input type="text" class="form-control text-right" id="txtNumberOfTrip" placeholder="" onChange= { onChangeProduction }/>
           </div>
           <div class="col-2 text-right">
           </div>
-          <div class="col-3">
+          <div class="col-4">
           </div>
         </div>
 
         <div class="row" >
           <div class="col-2 text-right">
-            <label for="txtProduction" class="col-form-label">Production</label>
+            <label htmlFor="txtProduction" class="col-form-label">Production</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
           <input type="text" class="form-control text-right" id="txtProduction" placeholder=""/>
           </div>
           <div class="col-2 text-left">
             <label for="bcmInput" class="col-form-label">BCM</label>
           </div>
-          <div class="col-3">
+          <div class="col-4">
           </div>
         </div>
       </form>
