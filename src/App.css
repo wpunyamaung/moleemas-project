@@ -39,6 +39,9 @@ li.borderless {
   border-top: 0 none;
 }
 
+.title {
+  text-align: center;
+}
 
 /*===  A-Main.js ===*/
 .banner {
@@ -51,6 +54,8 @@ li.borderless {
 .banner .logo, .banner .company {
   padding: 20px;
 }
+
+
 
 
 

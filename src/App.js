@@ -19,18 +19,9 @@ function App() {
   }
 
   return (
-      <ul class="list-group" >
-        <li class="list-group-item borderles">
-          <button type="button" class="btn btn-primary" onClick={() => window.location = '/A-Main' }>Main Equpments</button>  
-        </li>
+      <ul class="list-group" >      
         <li class="list-group-item">
-          <button type="button" class="btn btn-primary" onClick={() => window.location = '/B-AuxSub' }>Auxiliary Equpmen & Subcontractor (Soil)</button> 
-        </li>
-        <li class="list-group-item">
-          <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Auxiliary Equpmen & Subcontractor (Coal)</button> 
-        </li>
-        <li class="list-group-item">
-          <button type="button" class="btn btn-primary" onClick={() => window.location = '/' }>Mine Planning</button> 
+          <button type="button" class="btn btn-primary" onClick={() => window.location = '/Disaster' }>ภัยธรรมชาติ</button> 
         </li>        
       </ul>
   );
