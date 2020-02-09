@@ -21,7 +21,7 @@ function Form1() {
                 </a>
                 <a href="/Disaster" class="list-group-item list-group-item-action">เกิดจากภัยธรรมชาติ</a>	
 				        <a href="/Geology" class="list-group-item list-group-item-action">เกิดจากสภาพทางธรณีวิทยา</a>
-                <a href="#" class="list-group-item list-group-item-action">เกิดจากเครื่องจักร</a>
+                <a href="/Machine" class="list-group-item list-group-item-action">เกิดจากเครื่องจักร</a>
                 <a href="#" class="list-group-item list-group-item-action">เกิดจากการวางแผนการทำงาน</a>
               </div>
             </div>
