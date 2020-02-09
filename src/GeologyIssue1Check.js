@@ -15,14 +15,12 @@ function Form1() {
         <div class="row">
             <div class="col"/>
             <div class="col">
-            <div class="list-group">  
+            <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                กรุณาเลือกสาเหตุหลัก
+                ตรวจสอบในพื้นที่ทำงานวัสดุที่ขุดขนมีความผิดปกติหรือไม่
                 </a>
-                <a href="/Disaster" class="list-group-item list-group-item-action">เกิดจากภัยธรรมชาติ</a>	
-				        <a href="/Geology" class="list-group-item list-group-item-action">เกิดจากสภาพทางธรณีวิทยา</a>
-                <a href="#" class="list-group-item list-group-item-action">เกิดจากเครื่องจักร</a>
-                <a href="#" class="list-group-item list-group-item-action">เกิดจากการวางแผนการทำงาน</a>
+                <a href="/GeologyIssue1NotWork" class="list-group-item list-group-item-action">ตรวจสอบพบความผิดปกติ</a>
+                <a href="/GeologyIssue1Work" class="list-group-item list-group-item-action">ไม่พบความผิดปกติใดๆ</a>                  
               </div>
             </div>
             <div class="col"/>

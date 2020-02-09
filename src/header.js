@@ -7,7 +7,7 @@ function Header() {
                 <h3 class="text-center">
                     ระบบวิเคราะห์การตัดสินใจ
                 </h3>
-                <p class="h4">DIagnose of Production Process</p>
+                <p class="h4">Diagnose of Production Process</p>
             </div>
         </div>
     )

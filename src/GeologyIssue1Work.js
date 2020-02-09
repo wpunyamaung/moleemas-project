@@ -17,10 +17,9 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถเข้าทำงานได้หรือไม่
-                </a>
-                <a href="/EqWorkSomeArea" class="list-group-item list-group-item-action">สามารถเข้าทำงานได้เฉพาะส่วนของผู้รับเหมาเท่านั้น</a>
-                <a href="/EqNoWork" class="list-group-item list-group-item-action">ไม่สามารถเข้าพื้นที่ทำงานได้</a>
+                หากตรวจสอบแล้วไม่พบความผิดปกติใดๆ ที่ส่งผลกระทบต่อระบบการทำงาน 
+                ให้สามารถเข้าทำงานได้ทุกพื้นที่ ทั้งระบบสายพานและใช้ผู้รับเหมาขุดขนดินโดยตรง
+                </a>       
               </div>
             </div>
             <div class="col"/>

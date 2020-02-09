@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect  } from 'react-router-
 
 const Main = React.lazy(() => import('./App'))
 // Disaster
-const disaster = React.lazy(() => import('./Disaster1'))
-const disaster1Y = React.lazy(() => import('./Disaster2'))
+const disaster = React.lazy(() => import('./Disaster'))
 
 // Earthquake
 const earthquakeCheck = React.lazy(() => import('./EqCheck'))
@@ -37,6 +36,15 @@ const minewallNoDamage = React.lazy(() => import('./MinewallNoDamage'))
 const minewallWork = React.lazy(() => import('./MinewallWork'))
 const minewallNoWork = React.lazy(() => import('./MinewallNoWork'))
 
+// Geology
+const geology = React.lazy(() => import('./Geology'))
+const geologyIssue1Check = React.lazy(() => import('./GeologyIssue1Check'))
+const geologyIssue1Work = React.lazy(() => import('./GeologyIssue1Work'))
+const geologyIssue1NotWork = React.lazy(() => import('./GeologyIssue1NotWork'))
+const geologyIssue2Check = React.lazy(() => import('./GeologyIssue2Check'))
+const geologyIssue2Work = React.lazy(() => import('./GeologyIssue2Work'))
+const geologyIssue2NotWork = React.lazy(() => import('./GeologyIssue2NotWork'))
+
 const Routes = () => {
   return (
     <Router>
@@ -45,7 +53,6 @@ const Routes = () => {
           <Route exact='true' path='/' component={ Main } />
           
           <Route path='/Disaster' component={ disaster } />
-          <Route path='/Disaster1Y' component={ disaster1Y } />
 
           <Route path='/EarthquakeCheck' component={ earthquakeCheck } />
           <Route path='/EarthquakeWorkCheck' component={ earthquakeWorkCheck } /> 
@@ -72,6 +79,14 @@ const Routes = () => {
           <Route path='/MinewallNoDamage' component={ minewallNoDamage } /> 
           <Route path='/MinewallWork' component={ minewallWork } /> 
           <Route path='/MinewallNoWork' component={ minewallNoWork } /> 
+
+          <Route path='/Geology' component={ geology } /> 
+          <Route path='/GeologyIssue1Check' component={ geologyIssue1Check } /> 
+          <Route path='/GeologyIssue1Work' component={ geologyIssue1Work } /> 
+          <Route path='/GeologyIssue1NotWork' component={ geologyIssue1NotWork } /> 
+          <Route path='/GeologyIssue2Check' component={ geologyIssue2Check } /> 
+          <Route path='/GeologyIssue2Work' component={ geologyIssue2Work } /> 
+          <Route path='/GeologyIssue2NotWork' component={ geologyIssue2NotWork } /> 
 
         </Switch>
       </Suspense>

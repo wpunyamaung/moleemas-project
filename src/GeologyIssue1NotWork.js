@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถเข้าทำงานได้หรือไม่
-                </a>
-                <a href="/EqWorkSomeArea" class="list-group-item list-group-item-action">สามารถเข้าทำงานได้เฉพาะส่วนของผู้รับเหมาเท่านั้น</a>
-                <a href="/EqNoWork" class="list-group-item list-group-item-action">ไม่สามารถเข้าพื้นที่ทำงานได้</a>
+                หากตรวจสอบแล้วพบความผิดปกติ ทางฝ่ายปฏิบัติการและฝ่ายวางแผน 
+                ต้องประชุมร่วมกันเพื่อวางแผนแก้ไขปัญหาที่เกิดขึ้น 
+                โดยให้ทำงานได้โดยไม่มีผลกระทบต่อ Production และให้สอดคล้องกับความสามารถในการผลิตของเครื่องจักร
+                </a>               
               </div>
             </div>
             <div class="col"/>

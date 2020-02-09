@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เกิดจากปัจจัยภายนอกหรือไม่?
+                เกิดจากสภาพทางธรณีวิทยาประเภทใด
                 </a>
-                <a href="/Disaster1Y" class="list-group-item list-group-item-action">เกิดจากภัยธรรมชาติ</a>
-                <a href="#" class="list-group-item list-group-item-action">เกิดจากปัจจัยภายในอื่น</a>
+                <a href="/GeologyIssue1Check" class="list-group-item list-group-item-action">เกิดจากลักษณะวัสดุที่ขุดขน</a>
+                <a href="/GeologyIssue2Check" class="list-group-item list-group-item-action">เกิดจากโครงสร้างบ่อเหมือง</a>                  
               </div>
             </div>
             <div class="col"/>
