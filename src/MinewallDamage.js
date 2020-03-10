@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ตรวจพบความผิดปกติในบางพื้นที่บางจุด สามารถเข้าทำงานได้หรือไม่?
+                ตรวจพบความผิดปกติในบางพื้นที่ สามารถเข้าทำงานได้หรือไม่?
                 </a>
-                <a href="/MinewallWork" class="list-group-item list-group-item-action">พื้นที่บางจุดสามารถเข้าทำงานได้</a>
-                <a href="/MinewallNoWork" class="list-group-item list-group-item-action">ไม่สามารถเข้าพื้นที่ทำงานได้</a>
+                <a href="/MinewallWork" class="list-group-item list-group-item-action">Y-บางพื้นที่สามารถเข้าทำงานได้</a>
+                <a href="/MinewallNoWork" class="list-group-item list-group-item-action">N-ไม่สามารถเข้าพื้นที่ทำงานได้</a>
               </div>
             </div>
             <div class="col"/>

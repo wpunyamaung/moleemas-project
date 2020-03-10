@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เข้าตรวจสอบในพื้นที่ทำงานมีความผิดปกติหรือไม่?
+                เข้าตรวจสอบในพื้นที่ทำงานพบความผิดปกติหรือไม่?
                 </a>
-                <a href="/LandslideImpact" class="list-group-item list-group-item-action">พบความผิดปกติในบางพื้นที่บางจุด</a>
-                <a href="/LandslideNoImpact" class="list-group-item list-group-item-action">ไม่พบความผิดปกติใดๆ</a>
+                <a href="/LandslideImpact" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วพบความผิดปกติในบางพื้นที่</a>
+                <a href="/LandslideNoImpact" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วไม่พบความผิดปกติ</a>
               </div>
             </div>
             <div class="col"/>

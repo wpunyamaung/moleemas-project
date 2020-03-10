@@ -19,10 +19,10 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 กรุณาเลือกสาเหตุหลัก
                 </a>
-                <a href="/Disaster" class="list-group-item list-group-item-action">เกิดจากภัยธรรมชาติ</a>	
-				        <a href="/Geology" class="list-group-item list-group-item-action">เกิดจากสภาพทางธรณีวิทยา</a>
-                <a href="/Machine" class="list-group-item list-group-item-action">เกิดจากเครื่องจักร</a>
-                <a href="#" class="list-group-item list-group-item-action">เกิดจากการวางแผนการทำงาน</a>
+                <a href="/Disaster" class="list-group-item list-group-item-action">ปัจจัยภายนอก-เกิดจากภัยธรรมชาติ</a>	
+				        <a href="/Geology" class="list-group-item list-group-item-action">ปัจจัยภายนอก-เกิดจากสภาพทางธรณีวิทยา</a>
+                <a href="/Machine" class="list-group-item list-group-item-action">ปัจจัยภายใน-เกิดจากเครื่องจักร</a>
+                <a href="/Planning" class="list-group-item list-group-item-action">ปัจจัยภายใน-เกิดจากการวางแผนการทำงาน</a>
               </div>
             </div>
             <div class="col"/>

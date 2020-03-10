@@ -54,6 +54,15 @@ const machineIssue2Check = React.lazy(() => import('./MachineIssue2Check'))
 const machineIssue2Work = React.lazy(() => import('./MachineIssue2Work'))
 const machineIssue2NotWork = React.lazy(() => import('./MachineIssue2NotWork'))
 
+// Planning
+const planning = React.lazy(() => import('./Planning'))
+const planningIssue1Check = React.lazy(() => import('./PlanningIssue1Check'))
+const planningIssue1Work = React.lazy(() => import('./PlanningIssue1Work'))
+const planningIssue1NotWork = React.lazy(() => import('./PlanningIssue1NotWork'))
+const planningIssue2Check = React.lazy(() => import('./PlanningIssue2Check'))
+const planningIssue2Work = React.lazy(() => import('./PlanningIssue2Work'))
+const planningIssue2NotWork = React.lazy(() => import('./PlanningIssue2NotWork'))
+
 const Routes = () => {
   return (
     <Router>
@@ -104,6 +113,14 @@ const Routes = () => {
           <Route path='/MachineIssue2Check' component={ machineIssue2Check } /> 
           <Route path='/MachineIssue2Work' component={ machineIssue2Work } /> 
           <Route path='/MachineIssue2NotWork' component={ machineIssue2NotWork } />
+
+          <Route path='/Planning' component={ planning } /> 
+          <Route path='/PlanningIssue1Check' component={ planningIssue1Check } /> 
+          <Route path='/PlanningIssue1Work' component={ planningIssue1Work } /> 
+          <Route path='/PlanningIssue1NotWork' component={ planningIssue1NotWork } /> 
+          <Route path='/PlanningIssue2Check' component={ planningIssue2Check } /> 
+          <Route path='/PlanningIssue2Work' component={ planningIssue2Work } /> 
+          <Route path='/PlanningIssue2NotWork' component={ planningIssue2NotWork } /> 
 
         </Switch>
       </Suspense>

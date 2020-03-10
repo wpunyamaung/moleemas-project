@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เกิดจากภัยธรรมชาติประเภทใด
                 </a>
-                <a href="/EarthquakeCheck" class="list-group-item list-group-item-action">เกิดแผ่นดินไหว</a>
-                <a href="/StromCheck" class="list-group-item list-group-item-action">เกิดพายุฝนตกหนัก</a>
+                <a href="/EarthquakeCheck" class="list-group-item list-group-item-action">แผ่นดินไหว</a>
+                <a href="/StromCheck" class="list-group-item list-group-item-action">พายุฝนตกหนัก</a>
                 <a href="/FloodCheck" class="list-group-item list-group-item-action">น้ำป่าไหลหลาก</a> 
                 <a href="/LandslideCheck" class="list-group-item list-group-item-action">ดินถล่ม</a>  
                 <a href="/MinewallCheck" class="list-group-item list-group-item-action">ผนังบ่อเหมืองพังทลาย</a>                    

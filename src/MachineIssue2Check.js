@@ -17,11 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เมื่อถึงรอบระยะเวลาการซ่อมบำรุง ช่างแมคคานิคจะทำการตรวจเช็คเครื่องจักร 
-                ซึ่งหากเครื่องจักรมีอาการผิดปกติจะมีผลต่อการทำงานหรือไ
+                แจ้งช่างแมคคานิคตรวจสอบเครื่องจักรว่ามีผลต่อการทำงานหรือไม่
                 </a>
-                <a href="/MachineIssue2NotWork" class="list-group-item list-group-item-action">ตรวจสอบพบความผิดปกติ</a>
-                <a href="/MachineIssue2Work" class="list-group-item list-group-item-action">ไม่พบความผิดปกติใดๆ</a>                  
+                <a href="/MachineIssue2NotWork" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วพบว่ามีผลต่อการทำงาน</a>
+                <a href="/MachineIssue2Work" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วพบว่าไม่มีผลต่อการทำงาน</a>                  
               </div>
             </div>
             <div class="col"/>

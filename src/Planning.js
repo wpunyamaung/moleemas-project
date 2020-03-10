@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import $ from 'jquery';
 
 import './App.css';
 import './index.css'
@@ -16,8 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                หากน้ำป่าไหลหลากมีความรุนแรงมาก ไม่ควรเข้าพื้นที่ทำงาน อาจเกิดอันตรายได้ 
+                เกิดจากการวางแผนด้านใด
                 </a>
+                <a href="/PlanningIssue1Check" class="list-group-item list-group-item-action">เกิดจากการวางแผนและลำดับการทำงานในบ่อเหมือง</a>
+                <a href="/PlanningIssue2Check" class="list-group-item list-group-item-action">เกิดจากแผนงานจากเจ้าของงานไม่มีความสอดคล้องกับความสามารถในการผลิตของเครื่องจักร</a>                  
               </div>
             </div>
             <div class="col"/>
