@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 ตรวจสอบความรุนแรงน้ำป่าไหลหลากมีผลกระทบต่อการทำงานในพื้นที่บ่อเหมืองหรือไม่?
                 </a>
-                <a href="/FloodHeavy" class="list-group-item list-group-item-action">Y-ตรวจสอบพบว่าน้ำป่าไหลหลากรุนแรงมาก</a>
-                <a href="/FloodLight" class="list-group-item list-group-item-action">N-ตรวจสอบพบว่าน้ำป่าไหลหลากไม่รุนแรง</a>
+                <a href="/FloodHeavy" class="list-group-item list-group-item-action">Yes-ตรวจสอบพบว่าน้ำป่าไหลหลากรุนแรงมาก</a>
+                <a href="/FloodLight" class="list-group-item list-group-item-action">No-ตรวจสอบพบว่าน้ำป่าไหลหลากไม่รุนแรง</a>
               </div>
             </div>
             <div class="col"/>

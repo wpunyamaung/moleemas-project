@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เข้าตรวจสอบในพื้นที่ทำงานพบความผิดปกติหรือไม่?
                 </a>
-                <a href="/MinewallDamage" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วพบความผิดปกติในบางพื้นที่</a>
-                <a href="/MinewallNoDamage" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วไม่พบความผิดปกติ</a>
+                <a href="/MinewallDamage" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วพบความผิดปกติในบางพื้นที่</a>
+                <a href="/MinewallNoDamage" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่พบความผิดปกติ</a>
               </div>
             </div>
             <div class="col"/>

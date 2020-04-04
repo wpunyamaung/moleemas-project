@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 แจ้งช่างแมคคานิคตรวจสอบเครื่องจักรว่ามีผลต่อการทำงานหรือไม่
                 </a>
-                <a href="/MachineIssue2NotWork" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วพบว่ามีผลต่อการทำงาน</a>
-                <a href="/MachineIssue2Work" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วพบว่าไม่มีผลต่อการทำงาน</a>                  
+                <a href="/MachineIssue2NotWork" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วพบว่ามีผลต่อการทำงาน</a>
+                <a href="/MachineIssue2Work" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วพบว่าไม่มีผลต่อการทำงาน</a>                  
               </div>
             </div>
             <div class="col"/>

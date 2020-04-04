@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เข้าตรวจสอบในพื้นที่ทำงานวัสดุที่ขุดขนมีความผิดปกติหรือไม่
                 </a>
-                <a href="/GeologyIssue1NotWork" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วพบความผิดปกติ</a>
-                <a href="/GeologyIssue1Work" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วไม่พบความผิดปกติใดๆ</a>                  
+                <a href="/GeologyIssue1NotWork" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความผิดปกติ</a>
+                <a href="/GeologyIssue1Work" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความผิดปกติใดๆ</a>                  
               </div>
             </div>
             <div class="col"/>

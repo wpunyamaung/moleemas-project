@@ -20,8 +20,8 @@ function Form1() {
                 ฝ่ายปฏิบัติการตรวจสอบแผนงานจากเจ้าของงานเทียบกับความสามารถในการผลิตของเครื่องจักรหน้างานจริง 
                 มีความสอดคล้องและมีความสัมพันธ์กันหรือไม่
                 </a>
-                <a href="/PlanningIssue2Work" class="list-group-item list-group-item-action">Y-ตรวจสอบแล้วมีความสอดคล้องและสัมพันธ์</a>
-                <a href="/PlanningIssue2NotWork" class="list-group-item list-group-item-action">N-ตรวจสอบแล้วไม่มีความสอดคล้องและสัมพันธ์</a>                  
+                <a href="/PlanningIssue2Work" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความสอดคล้องและสัมพันธ์</a>
+                <a href="/PlanningIssue2NotWork" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความสอดคล้องและสัมพันธ์</a>                  
               </div>
             </div>
             <div class="col"/>

@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 ตรวจสอบความรุนแรงของพายุฝนมีผลกระทบต่อการทำงานในพื้นที่บ่อเหมืองหรือไม่?
                 </a>
-                <a href="/StromHeavy" class="list-group-item list-group-item-action">Y-ตรวจสอบพบว่าพายุฝนมีความรุนแรงมาก</a>
-                <a href="/StromLight" class="list-group-item list-group-item-action">N-ตรวจสอบพบว่าพายุฝนไม่มีความรุนแรง</a>
+                <a href="/StromHeavy" class="list-group-item list-group-item-action">Yes-ตรวจสอบพบว่าพายุฝนมีความรุนแรงมาก</a>
+                <a href="/StromLight" class="list-group-item list-group-item-action">No-ตรวจสอบพบว่าพายุฝนไม่มีความรุนแรง</a>
               </div>
             </div>
             <div class="col"/>

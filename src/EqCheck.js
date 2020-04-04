@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เข้าตรวจสอบในพื้นที่ทำงานพบความผิดปกติหรือไม่?
                 </a>
-                <a href="/EarthquakeWorkCheck" class="list-group-item list-group-item-action">Y-พบความผิดปกติในบางพื้นที่</a>
-                <a href="/EarthquakeNoImpact" class="list-group-item list-group-item-action">N-ไม่พบความผิดปกติที่ส่งผลกระทบต่อการทำงาน</a>
+                <a href="/EarthquakeWorkCheck" class="list-group-item list-group-item-action">Yes-พบความผิดปกติในบางพื้นที่</a>
+                <a href="/EarthquakeNoImpact" class="list-group-item list-group-item-action">No-ไม่พบความผิดปกติที่ส่งผลกระทบต่อการทำงาน</a>
               </div>
             </div>
             <div class="col"/>
