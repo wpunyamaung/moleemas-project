@@ -2,6 +2,10 @@ import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect  } from 'react-router-dom'
 
 const Main = React.lazy(() => import('./App'))
+
+const externalIssue = React.lazy(() => import('./ExternalIssue'))
+const internalIssue = React.lazy(() => import('./InternalIssue'))
+
 // Disaster
 const disaster = React.lazy(() => import('./Disaster'))
 
@@ -69,6 +73,9 @@ const Routes = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
           <Route exact='true' path='/' component={ Main } />
+
+          <Route path='/ExternalIssue' component={ externalIssue } />
+          <Route path='/InternalIssue' component={ internalIssue } />
           
           <Route path='/Disaster' component={ disaster } />
 

@@ -15,12 +15,12 @@ function Form1() {
         <div class="row">
             <div class="col"/>
             <div class="col">
-            <div class="list-group">  
+            <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                กรุณาเลือกปัจจัยที่ทำให้ผลงานน้อยกว่าร้อยละ 80 ของผลงาน
+                กรุณาเลือกปัจจัยภายนอก
                 </a>
-                <a href="/ExternalIssue" class="list-group-item list-group-item-action">ปัจจัยภายนอก เช่น ภัยธรรมชาติ, สภาพทางธรณีวิทยา</a>	
-                <a href="/InternalIssue" class="list-group-item list-group-item-action">ปัจจัยภายใน เช่น เครื่องจักร, การวางแผนงาน </a>
+                <a href="/Disaster" class="list-group-item list-group-item-action">ภัยธรรมชาติ</a>
+                <a href="/Geology" class="list-group-item list-group-item-action">สภาพทางธรณีวิทยา</a>                  
               </div>
             </div>
             <div class="col"/>
