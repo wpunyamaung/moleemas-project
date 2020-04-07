@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 กรุณาเลือกปัจจัยภายนอก
                 </a>
-                <a href="/Disaster" class="list-group-item list-group-item-action">ภัยธรรมชาติ</a>
-                <a href="/Geology" class="list-group-item list-group-item-action">สภาพทางธรณีวิทยา</a>                  
+                <a href="/Disaster" class="list-group-item list-group-item-action">เกิดจากภัยธรรมชาติ</a>
+                <a href="/Geology" class="list-group-item list-group-item-action">เกิดจากสภาพทางธรณีวิทยา</a>                  
               </div>
             </div>
             <div class="col"/>

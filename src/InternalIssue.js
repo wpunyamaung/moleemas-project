@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 กรุณาเลือกปัจจัยภายใน
                 </a>
-                <a href="/Machine" class="list-group-item list-group-item-action">เครื่องจักร</a>
-                <a href="/Planning" class="list-group-item list-group-item-action">การวางแผนงาน</a>                  
+                <a href="/Machine" class="list-group-item list-group-item-action">เกิดจากเครื่องจักร</a>
+                <a href="/Planning" class="list-group-item list-group-item-action">เกิดจากการวางแผนงาน</a>                  
               </div>
             </div>
             <div class="col"/>
