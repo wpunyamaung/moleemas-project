@@ -16,8 +16,7 @@ function Form1() {
             <div class="col"/>
             <div class="col">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active">
-                หากพบว่าแผนงานจากเจ้าของงานไม่สอดคล้องกับเครื่องจักร ส่งผลกระทบต่อ Production 
+                <a href="#" class="list-group-item list-group-item-action active"> 
                 ฝ่ายวางแผนและปฏิบัติการควรประชุมหารือร่วมกับเจ้าของงานและปรับแผนงานใหม่
                 </a>               
               </div>

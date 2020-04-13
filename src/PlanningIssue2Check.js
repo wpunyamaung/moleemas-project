@@ -17,11 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ฝ่ายปฏิบัติการตรวจสอบแผนงานจากเจ้าของงานเทียบกับความสามารถในการผลิตของเครื่องจักรหน้างานจริง 
-                มีความสอดคล้องและมีความสัมพันธ์กันหรือไม่
+                ฝ่ายปฏิบัติการตรวจสอบแผนงานจากเจ้าของงานมีความสอดคล้องกับความสามารถในการผลิตของเครื่องจักรหรือไม่?
                 </a>
-                <a href="/PlanningIssue2Work" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความสอดคล้องและสัมพันธ์</a>
-                <a href="/PlanningIssue2NotWork" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความสอดคล้องและสัมพันธ์</a>                  
+                <a href="/PlanningIssue2Work" class="list-group-item list-group-item-action">Yes-มีความสอดคล้องกับการทำงานจริง</a>
+                <a href="/PlanningIssue2NotWork" class="list-group-item list-group-item-action">No-ไม่มีความสอดคล้องกับการทำงานจริง</a>                  
               </div>
             </div>
             <div class="col"/>

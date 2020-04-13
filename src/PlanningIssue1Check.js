@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 ฝ่ายปฏิบัติการตรวจสอบการวางแผนและลำดับการทำงานในบ่อเหมืองมีความสอดคล้องกับลักษณะการทำงานจริงหรือไม่
                 </a>
-                <a href="/PlanningIssue1Work" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความสอดคล้อง</a>
-                <a href="/PlanningIssue1NotWork" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความสอดคล้อง</a>                  
+                <a href="/PlanningIssue1Work" class="list-group-item list-group-item-action">Yes-มีความสอดคล้องกับการทำงานจริง</a>
+                <a href="/PlanningIssue1NotWork" class="list-group-item list-group-item-action">No-ไม่มีความสอดคล้องกับการทำงานจริง</a>                  
               </div>
             </div>
             <div class="col"/>

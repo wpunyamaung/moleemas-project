@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เกิดปัญหาทางเครื่องจักรทางด้านใด?
                 </a>
-                <a href="/MachineIssue1Check" class="list-group-item list-group-item-action">เครื่องจักรชำรุดไม่สามารถทำงานได้</a>
-                <a href="/MachineIssue2Check" class="list-group-item list-group-item-action">การใช้เครื่องจักรเกินรอบระยะเวลาบำรุงรักษา มีผลทำให้ Production ต่ำกว่าแผนงาน</a>                  
+                <a href="/MachineIssue1Check" class="list-group-item list-group-item-action">เครื่องจักรชำรุดก่อนรอบระยะเวลาการบำรุงรักษา</a>
+                <a href="/MachineIssue2Check" class="list-group-item list-group-item-action">เครื่องจักรชำรุดเกินรอบระยะเวลาการบำรุงรักษา</a>                  
               </div>
             </div>
             <div class="col"/>

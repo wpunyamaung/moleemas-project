@@ -19,8 +19,8 @@ function Form1() {
                 <a href="#" class="list-group-item list-group-item-action active">
                 เกิดจากสภาพทางธรณีวิทยาประเภทใด?
                 </a>
-                <a href="/GeologyIssue1Check" class="list-group-item list-group-item-action">เกิดจากลักษณะวัสดุที่ขุดขน</a>
-                <a href="/GeologyIssue2Check" class="list-group-item list-group-item-action">เกิดจากโครงสร้างบ่อเหมือง</a>                  
+                <a href="/GeologyIssue1Check" class="list-group-item list-group-item-action">เกิดจากวัตถุที่ขุดขนไม่ใช่ดิน</a>
+                <a href="/GeologyIssue2Check" class="list-group-item list-group-item-action">เกิดจากโครงสร้างบ่อเหมืองผิดปกติ</a>                  
               </div>
             </div>
             <div class="col"/>

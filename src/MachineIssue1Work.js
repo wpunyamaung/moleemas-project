@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                หากตรวจสอบแล้วพบว่าเครื่องจักรไม่มีอาการผิดปกติ ให้สามารถทำงานได้ตามปกติ หรือผิดปกติไม่มากสามารถซ่อมได้ทันที ให้ทำงานได้ปกติเช่นกัน 
+                 ให้สามารถทำงานได้ตามปกติ 
                 </a>       
               </div>
             </div>

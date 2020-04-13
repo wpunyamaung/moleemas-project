@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                หากพบว่าการวางแผนและการลำดับการทำงานในบ่อเหมืองไม่ส่งผลกระทบต่อ Production ให้สามารถทำงานได้ตามปกติ
+                สามารถเข้าพื้นที่ทำงานได้ตามปกติ
                 </a>       
               </div>
             </div>

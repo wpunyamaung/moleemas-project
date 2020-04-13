@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                หากพบว่าแผนงานจากเจ้าของงานไม่ส่งผลกระทบต่อ Production สามารถทำงานตามปกติได้
+                แผนงานจากเจ้าของงานไม่ส่งผลกระทบต่อผลผลิต สามารถทำงานตามปกติได้
                 </a>       
               </div>
             </div>

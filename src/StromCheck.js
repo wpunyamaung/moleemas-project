@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ตรวจสอบความรุนแรงของพายุฝนมีผลกระทบต่อการทำงานในพื้นที่บ่อเหมืองหรือไม่?
+                ตรวจสอบว่าพายุฝนมีความรุนแรงมากหรือไม่ ซึ่งอาจทำให้เกิดฟ้าคะนองฟ้าผ่าได้?
                 </a>
-                <a href="/StromHeavy" class="list-group-item list-group-item-action">Yes-ตรวจสอบพบว่าพายุฝนมีความรุนแรงมาก</a>
-                <a href="/StromLight" class="list-group-item list-group-item-action">No-ตรวจสอบพบว่าพายุฝนไม่มีความรุนแรง</a>
+                <a href="/StromHeavy" class="list-group-item list-group-item-action">Yes-พายุฝนมีความรุนแรงมาก</a>
+                <a href="/StromLight" class="list-group-item list-group-item-action">No-พายุฝนไม่รุนแรง</a>
               </div>
             </div>
             <div class="col"/>
