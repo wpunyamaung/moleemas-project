@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import $ from 'jquery';
 
 import './App.css';
 import './index.css'
@@ -17,10 +16,8 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ตรวจสอบความรุนแรงน้ำป่าไหลหลากมีผลกระทบต่อการทำงานในพื้นที่บ่อเหมืองหรือไม่?
+                ย้ายเครื่องจักรไปทำงานในพื้นที่อื่นก่อนเพื่อให้สามารถผลิตได้ตามแผนงาน หากพื้นที่บริเวณนั้นแห้งแล้วให้เข้าทำงานได้ปกติ 
                 </a>
-                <a href="/PumpCheck" class="list-group-item list-group-item-action">Yes-ตรวจสอบพบว่าน้ำป่าไหลหลากรุนแรงมาก</a>
-                <a href="/FloodLight" class="list-group-item list-group-item-action">No-ตรวจสอบพบว่าน้ำป่าไหลหลากไม่รุนแรง</a>
               </div>
             </div>
             <div class="col"/>

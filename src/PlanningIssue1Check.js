@@ -25,6 +25,16 @@ function Form1() {
             </div>
             <div class="col"/>
           </div>
+          <div class="row">
+          <div class="col"></div>
+          <div class="col-6 pt-4 ">
+            <div class="alert alert-warning text-left" role="alert">
+              หมายเหตุ ** การวางแผนและลำดับการทำงานในบ่อเหมือง ได้แก่ ระยะทางในการขนส่งระหว่างหน้าขุดจนถึงเหมืองโม่ม 
+              การวางแผนงานให้เหมาะสมในเรื่องพื้นที่ขุดและความชันของถนนในเหมืองบ่อม การขัดการจราจรในบ่อเหมือง
+            </div>
+          </div>
+          <div class="col"></div>
+        </div> 
       </form>
     </div>
   );

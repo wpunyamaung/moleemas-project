@@ -26,6 +26,9 @@ const floodCheck = React.lazy(() => import('./FloodCheck'))
 const floodHeavy = React.lazy(() => import('./FloodHeavy'))
 const floodLight = React.lazy(() => import('./FloodLight'))
 
+const pumpCheck = React.lazy(() => import('./PumpCheck'))
+const pumpWork = React.lazy(() => import('./PumpWork'))
+const pumpNotWork = React.lazy(() => import('./PumpNotWork'))
 //Landslide
 const landslideCheck = React.lazy(() => import('./LandslideCheck'))
 const landslideImpact = React.lazy(() => import('./LandslideImpact'))
@@ -57,6 +60,9 @@ const machineIssue1NotWork = React.lazy(() => import('./MachineIssue1NotWork'))
 const machineIssue2Check = React.lazy(() => import('./MachineIssue2Check'))
 const machineIssue2Work = React.lazy(() => import('./MachineIssue2Work'))
 const machineIssue2NotWork = React.lazy(() => import('./MachineIssue2NotWork'))
+const contractorAssigned = React.lazy(() => import('./ContractorAssigned'))
+const machineAssigned = React.lazy(() => import('./MachineAssigned'))
+const contractorAndMachineAssigned = React.lazy(() => import('./ContractorAndMachineAssigned'))
 
 // Planning
 const planning = React.lazy(() => import('./Planning'))
@@ -93,6 +99,10 @@ const Routes = () => {
           <Route path='/FloodHeavy' component={ floodHeavy } /> 
           <Route path='/FloodLight' component={ floodLight } /> 
 
+          <Route path='/PumpCheck' component={ pumpCheck } /> 
+          <Route path='/PumpWork' component={ pumpWork } /> 
+          <Route path='/PumpNotWork' component={ pumpNotWork } /> 
+
           <Route path='/LandslideCheck' component={ landslideCheck } /> 
           <Route path='/LandslideImpact' component={ landslideImpact } /> 
           <Route path='/LandslideNoImpact' component={ landslideNoImpact } /> 
@@ -120,6 +130,9 @@ const Routes = () => {
           <Route path='/MachineIssue2Check' component={ machineIssue2Check } /> 
           <Route path='/MachineIssue2Work' component={ machineIssue2Work } /> 
           <Route path='/MachineIssue2NotWork' component={ machineIssue2NotWork } />
+          <Route path='/ContractorAssigned' component={ contractorAssigned } />
+          <Route path='/MachineAssigned' component={ machineAssigned } />
+          <Route path='/ContractorAndMachineAssigned' component={ contractorAndMachineAssigned } />
 
           <Route path='/Planning' component={ planning } /> 
           <Route path='/PlanningIssue1Check' component={ planningIssue1Check } /> 

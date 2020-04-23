@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ตรวจสอบความรุนแรงน้ำป่าไหลหลากมีผลกระทบต่อการทำงานในพื้นที่บ่อเหมืองหรือไม่?
+                ฝ่ายผลิตสามารถสูบน้ำออกได้หรือเปล่า?
                 </a>
-                <a href="/PumpCheck" class="list-group-item list-group-item-action">Yes-ตรวจสอบพบว่าน้ำป่าไหลหลากรุนแรงมาก</a>
-                <a href="/FloodLight" class="list-group-item list-group-item-action">No-ตรวจสอบพบว่าน้ำป่าไหลหลากไม่รุนแรง</a>
+                <a href="/PumpWork" class="list-group-item list-group-item-action">Yes-สามารถสูบน้ำได้</a>
+                <a href="/PumpNotWork" class="list-group-item list-group-item-action">No-ไม่สามารถสูบน้ำได้</a>
               </div>
             </div>
             <div class="col"/>
