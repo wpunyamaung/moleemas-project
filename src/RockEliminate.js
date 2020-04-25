@@ -17,10 +17,8 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เข้าตรวจสอบในพื้นที่ทำงานวัสดุที่ขุดขนมีความผิดปกติหรือไม่
-                </a>
-                <a href="/Contaminate" class="list-group-item list-group-item-action">Yes-พบวัตถุปนเปื้อน</a>
-                <a href="/NoContaminate" class="list-group-item list-group-item-action">No-ไม่พบวัตถุปนเปื้อน</a>                  
+                สามารถกำจัดได้ หลังจากนั้นให้เข้าทำงานได้ตามปกติ
+                </a>               
               </div>
             </div>
             <div class="col"/>

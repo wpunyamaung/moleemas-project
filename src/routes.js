@@ -51,6 +51,13 @@ const geologyIssue1NotWork = React.lazy(() => import('./GeologyIssue1NotWork'))
 const geologyIssue2Check = React.lazy(() => import('./GeologyIssue2Check'))
 const geologyIssue2Work = React.lazy(() => import('./GeologyIssue2Work'))
 const geologyIssue2NotWork = React.lazy(() => import('./GeologyIssue2NotWork'))
+const contaminate = React.lazy(() => import('./Contaminate'))
+const noContaminate = React.lazy(() => import('./NoContaminate'))
+const rock = React.lazy(() => import('./Rock'))
+const rockEliminate = React.lazy(() => import('./RockEliminate'))
+const rockNoEliminate = React.lazy(() => import('./RockNoEliminate'))
+// const lignite = React.lazy(() => import('./Lignite'))
+// const metal = React.lazy(() => import('./Metal'))
 
 // Machine
 const machine = React.lazy(() => import('./Machine'))
@@ -122,6 +129,13 @@ const Routes = () => {
           <Route path='/GeologyIssue2Check' component={ geologyIssue2Check } /> 
           <Route path='/GeologyIssue2Work' component={ geologyIssue2Work } /> 
           <Route path='/GeologyIssue2NotWork' component={ geologyIssue2NotWork } /> 
+          <Route path='/Contaminate' component={ contaminate } /> 
+          <Route path='/NoContaminate' component={ noContaminate } /> 
+          <Route path='/Rock' component={ rock } /> 
+          <Route path='/RockEliminate' component={ rockEliminate } /> 
+          <Route path='/RockNoEliminate' component={ rockNoEliminate } /> 
+          {/* <Route path='/Lignite' component={ lignite } /> 
+          <Route path='/Metal' component={ metal } />  */}
 
           <Route path='/Machine' component={ machine } /> 
           <Route path='/MachineIssue1Check' component={ machineIssue1Check } /> 
