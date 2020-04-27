@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เกิดจากภัยธรรมชาติประเภทใด?
+                เกิดจากภัยธรรมชาติประเภทใด ?
                 </a>
                 <a href="/EarthquakeCheck" class="list-group-item list-group-item-action">แผ่นดินไหว</a>
                 <a href="/StromCheck" class="list-group-item list-group-item-action">พายุฝนตกหนัก</a>

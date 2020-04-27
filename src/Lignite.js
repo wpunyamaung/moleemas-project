@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถขุดได้หรือไม่?
+                สามารถขุดได้หรือไม่ ?
                 </a>
                 <a href="/LigniteEliminate" class="list-group-item list-group-item-action">Yes-สามารถขุดออกได้</a>
                 <a href="/LigniteNoEliminate" class="list-group-item list-group-item-action">No-ไม่สามารถขุดออกได้</a>                  

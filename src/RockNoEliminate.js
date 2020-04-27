@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ไม่สามารถกำจัดได้ อาจวางแผนใหม่โดยการย้ายเครื่องจักรไปทำงานบริเวณอื่น
+                อาจวางแผนใหม่โดยการย้ายเครื่องจักรไปทำงานบริเวณอื่นก่อน
                 </a>               
               </div>
             </div>

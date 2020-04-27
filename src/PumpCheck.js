@@ -17,7 +17,8 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ฝ่ายผลิตสามารถสูบน้ำออกได้หรือเปล่า?
+                หากน้ำป่าไหลหลากมีความรุนแรงมากไม่ควรเข้าพื้นที่ทำงานอาจทำให้เกิดน้ำท่วมในบ่อเหมือง ต้องรอน้ำป่าไหลหลากหยุด
+                และระดับน้ำท่วมลงลดอยู่ในระดับที่สูบออกได้ ตรวจสอบว่าฝ่ายผลิตสามารถสูบน้ำออกได้หรือไม่ ?
                 </a>
                 <a href="/PumpWork" class="list-group-item list-group-item-action">Yes-สามารถสูบน้ำได้</a>
                 <a href="/PumpNotWork" class="list-group-item list-group-item-action">No-ไม่สามารถสูบน้ำได้</a>

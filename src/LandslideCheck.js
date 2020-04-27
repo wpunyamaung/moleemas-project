@@ -17,9 +17,9 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                 ตรวจสอบว่าดินถล่มมีความรุนแรงหรือไม่ซึ่งอาจเกิดดินถล่มโดนเครื่องจักรได้?
+                 ตรวจสอบว่าดินถล่มมีความรุนแรงหรือไม่ ซึ่งอาจเกิดดินถล่มโดนเครื่องจักรได้ ?
                 </a>
-                <a href="/LandslideNoWork" class="list-group-item list-group-item-action">Yes-ดินถล่มม่ีความรุนแรงมาก</a>
+                <a href="/LandslideNoWork" class="list-group-item list-group-item-action">Yes-ดินถล่มมีความรุนแรงมาก</a>
                 <a href="/LandslideWork" class="list-group-item list-group-item-action">No-ดินถล่มไม่รุนแรง</a>
               </div>
             </div>

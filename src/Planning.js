@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                เกิดปัญหาการวางแผนงานด้านใด?
+                เกิดปัญหาการวางแผนงานด้านใด ?
                 </a>
-                <a href="/PlanningIssue1Check" class="list-group-item list-group-item-action">เกิดจากการวางแผนและลำดับการทำงานในบ่อเหมือง</a>
-                <a href="/PlanningIssue2Check" class="list-group-item list-group-item-action">เกิดจากแผนงานจากเจ้าของงานไม่มีความสอดคล้องกับความสามารถในการผลิตของเครื่องจักร</a>                  
+                <a href="/PlanningIssue1Check" class="list-group-item list-group-item-action">เกิดจากการวางแผนและลำดับการทำงาน</a>
+                <a href="/PlanningIssue2Check" class="list-group-item list-group-item-action">เกิดจากแผนงานจากเจ้าของงานไม่สอดคล้องกับความสามารถในการผลิตของเครื่องจักร</a>                  
               </div>
             </div>
             <div class="col"/>

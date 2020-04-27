@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ตรวจสอบว่าพายุฝนมีความรุนแรงมากหรือไม่ ซึ่งอาจทำให้เกิดฟ้าคะนองฟ้าผ่าได้?
+                ตรวจสอบว่าพายุฝนมีความรุนแรงมากหรือไม่ ซึ่งอาจทำให้เกิดฟ้าคะนองฟ้าผ่าได้ ?
                 </a>
                 <a href="/StromHeavy" class="list-group-item list-group-item-action">Yes-พายุฝนมีความรุนแรงมาก</a>
                 <a href="/StromLight" class="list-group-item list-group-item-action">No-พายุฝนไม่รุนแรง</a>

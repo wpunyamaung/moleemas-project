@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                หากพายุฝนไม่มีความรุนแรง สามารถเข้าพื้นที่ทำงานได้ แต่ต้องอาศัยความระมัดระวัง             
+                หากพายุฝนไม่มีความรุนแรงสามารถเข้าพื้นที่ทำงานได้ แต่ต้องอาศัยความระมัดระวัง             
                 </a>
               </div>
             </div>

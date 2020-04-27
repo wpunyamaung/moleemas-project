@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                พบวัตถุปนเปื้อนประเภทใด?
+                พบวัตถุปนเปื้อนประเภทใด ?
                 </a>
                 <a href="/Rock" class="list-group-item list-group-item-action">พบหินก้อนใหญ่/เศษรากไม้</a>
                 <a href="/Lignite" class="list-group-item list-group-item-action">พบถ่านหินลิกไนต์</a> 

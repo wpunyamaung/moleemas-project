@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                 ให้สามารถทำงานได้ตามปกติ 
+                 สามารถทำงานได้ตามปกติ 
                 </a>       
               </div>
             </div>

@@ -16,7 +16,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ประชุมวางแผนการทำงานใหม่เพื่อหาพื้นที่ทดแทน
+                ไม่สามารถสูบน้ำได้ ควรประชุมวางแผนการทำงานใหม่เพื่อหาพื้นที่ทำงานใหม่ทดแทน
                 </a>
               </div>
             </div>

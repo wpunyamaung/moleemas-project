@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถกำจัดได้ หลังจากนั้นให้เข้าทำงานได้ตามปกติ
+                ให้เข้าทำงานได้ตามปกติ
                 </a>               
               </div>
             </div>

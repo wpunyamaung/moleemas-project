@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถเข้าทำงานได้หรือไม่
+                สามารถเข้าทำงานได้หรือไม่ ?
                 </a>
                 <a href="/EqWorkSomeArea" class="list-group-item list-group-item-action">Yes-สามารถเข้าทำงานได้บางส่วน</a>
                 <a href="/EqNoWork" class="list-group-item list-group-item-action">No-ไม่สามารถเข้าพื้นที่ทำงานได้</a>

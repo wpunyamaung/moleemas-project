@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถกำจัดได้หรือไม่?
+                สามารถกำจัดได้หรือไม่ ?
                 </a>
-                <a href="/MetalEliminate" class="list-group-item list-group-item-action">Yes-สามารถกำจัดออกได้</a>
-                <a href="/MetalNoEliminate" class="list-group-item list-group-item-action">No-ไม่สามารถกำจัดออกได้</a>                  
+                <a href="/MetalEliminate" class="list-group-item list-group-item-action">Yes-สามารถกำจัดได้</a>
+                <a href="/MetalNoEliminate" class="list-group-item list-group-item-action">No-ไม่สามารถกำจัดได้</a>                  
               </div>
             </div>
             <div class="col"/>

@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                พบสานแร่พาดผ่านปริมาณมากต้องทำการแจ้งเข้าของงาน เพื่อให้เจ้าของงานตรวจสอบอีกครั้ง
+                หากพบสายแร่พาดผ่านปริมาณมากต้องทำการแจ้งเจ้าของงาน เพื่อให้เจ้าของงานตรวจสอบอีกครั้ง
                 </a>               
               </div>
             </div>
