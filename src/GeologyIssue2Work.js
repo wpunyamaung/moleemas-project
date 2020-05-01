@@ -8,17 +8,15 @@ function Form1() {
 
   return (
     <div className="App">
-      {/* <div class="col-2 text-left">
-        <button type="button" class="btn btn-secondary" onClick={() => window.location = '/App'}> Main menu </button>
-      </div> */}
       <form>
-        <div class="row">
+      <div class="row">
             <div class="col"/>
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถเข้าพื้นที่ทำงานได้ตามปกติไม่ส่งผลกระทบต่อระบบการทำงาน แต่ต้องตรวจสอบเสถียรภาพของผนังบ่อเหมืองอยู่เสมอ
-                </a>       
+                สามารถเข้าพื้นที่ทำงานได้ปกติ ไม่ส่งผลกระทบต่อระบบการทำงาน แต่ต้องตรวจสอบเสถียรภาพของผนังเหมืองอยู่เสมอว่ามีความรุนแรงเพิ่มขึ้นหรือไม่??
+                </a>
+                <a href="/GeologyIssue2Check" class="list-group-item list-group-item-action">หากตรวจสอบพบความรุนแรงเพิ่มมากขึ้นให้นักธรณีเข้าตรวจสอบโครงสร้างบ่อเหมืองในพื้นที่อีกครั้ง</a>      
               </div>
             </div>
             <div class="col"/>

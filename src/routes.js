@@ -82,6 +82,8 @@ const planningIssue1NotWork = React.lazy(() => import('./PlanningIssue1NotWork')
 const planningIssue2Check = React.lazy(() => import('./PlanningIssue2Check'))
 const planningIssue2Work = React.lazy(() => import('./PlanningIssue2Work'))
 const planningIssue2NotWork = React.lazy(() => import('./PlanningIssue2NotWork'))
+const productionNotOk = React.lazy(() => import('./ProductionNotOk'))
+const productionOk = React.lazy(() => import('./ProductionOk'))
 
 const Routes = () => {
   return (
@@ -162,6 +164,8 @@ const Routes = () => {
           <Route path='/PlanningIssue2Check' component={ planningIssue2Check } /> 
           <Route path='/PlanningIssue2Work' component={ planningIssue2Work } /> 
           <Route path='/PlanningIssue2NotWork' component={ planningIssue2NotWork } /> 
+          <Route path='/ProductionNotOk' component={ productionNotOk } /> 
+          <Route path='/ProductionOk' component={ productionOk } /> 
 
         </Switch>
       </Suspense>

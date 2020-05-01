@@ -17,10 +17,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                นักธรณีเข้าตรวจสอบโครงสร้างบ่อเหมืองมีความผิดปกติหรือไม่ ?
+                นักธรณีวิทยาเข้าตรวจสอบโครงสร้างบ่อเหมืองมีร้อยร้าวหรือเกิดการพังทลายของหน้าดิืนรุนแรงหรือไม่?
                 </a>
-                <a href="/GeologyIssue2NotWork" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความผิดปกติ</a>
-                <a href="/GeologyIssue2Work" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความผิดปกติ</a>                  
+                <a href="/GeologyIssue2NotWork" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความรุนแรง</a>
+                <a href="/GeologyIssue2Work" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความรุนแรง</a>                  
               </div>
             </div>
             <div class="col"/>

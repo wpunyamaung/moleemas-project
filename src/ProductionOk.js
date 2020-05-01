@@ -12,15 +12,13 @@ function Form1() {
         <button type="button" class="btn btn-secondary" onClick={() => window.location = '/App'}> Main menu </button>
       </div> */}
       <form>
-      <div class="row">
+        <div class="row">
             <div class="col"/>
             <div class="col">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active">
-                ผลผลิตน้อยกว่าแผนงานหรือไม่?
-                </a>
-                <a href="/ProductionNotOk" class="list-group-item list-group-item-action">Yes-ผลผลิตน้อยกว่าแผนงาน</a>
-                <a href="/ProductionOk" class="list-group-item list-group-item-action">No-ผลผลิตมากกว่าแผนงาน</a>                  
+                <a href="#" class="list-group-item list-group-item-action active"> 
+                ผลผลิตมากกว่าแผนงาน ให้สามารถทำงานได้ตามปกติ
+                </a>               
               </div>
             </div>
             <div class="col"/>
