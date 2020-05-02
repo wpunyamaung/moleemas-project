@@ -17,7 +17,7 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                ผลผลิตน้อยกว่าแผนงานหรือไม่?
+                ผลผลิตน้อยกว่าแผนงานหรือไม่ ?
                 </a>
                 <a href="/ProductionNotOk" class="list-group-item list-group-item-action">Yes-ผลผลิตน้อยกว่าแผนงาน</a>
                 <a href="/ProductionOk" class="list-group-item list-group-item-action">No-ผลผลิตมากกว่าแผนงาน</a>                  
