@@ -62,6 +62,8 @@ const ligniteNoEliminate = React.lazy(() => import('./LigniteNoEliminate'))
 const metal = React.lazy(() => import('./Metal'))
 const metalEliminate = React.lazy(() => import('./MetalEliminate'))
 const metalNoEliminate = React.lazy(() => import('./MetalNoEliminate'))
+const geologyEffect = React.lazy(() => import('./GeologyEffect'))
+const geologyNotEffect = React.lazy(() => import('./GeologyNotEffect'))
 // Machine
 const machine = React.lazy(() => import('./Machine'))
 const machineIssue1Check = React.lazy(() => import('./MachineIssue1Check'))
@@ -145,6 +147,8 @@ const Routes = () => {
           <Route path='/Metal' component={ metal } />  
           <Route path='/MetalEliminate' component={ metalEliminate } />  
           <Route path='/MetalNoEliminate' component={ metalNoEliminate } />  
+          <Route path='/GeologyEffect' component={ geologyEffect } />
+          <Route path='/GeologyNotEffect' component={ geologyNotEffect } />
 
           <Route path='/Machine' component={ machine } /> 
           <Route path='/MachineIssue1Check' component={ machineIssue1Check } /> 

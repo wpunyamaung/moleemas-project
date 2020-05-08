@@ -14,9 +14,10 @@ function Form1() {
             <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active">
-                สามารถเข้าพื้นที่ทำงานได้ปกติไม่ส่งผลกระทบต่อระบบการทำงาน แต่ต้องตรวจสอบเสถียรภาพของผนังเหมืองอยู่เสมอว่ามีความรุนแรงเพิ่มขึ้นหรือไม่ ?
+                สามารถเข้าพิื้นที่ทำงานได้ตามปกติ แต่ควรตรวจสอบเสถียรภาพของผนังบ่อเหมืองซ้ำอยู่เสมอว่ามีการเกิดพังทลายของหน้าดินรุนแรงเพิ่มขึ้นหรือไม่ ?
                 </a>
-                <a href="/GeologyIssue2Check" class="list-group-item list-group-item-action">หากตรวจสอบพบความผิดปกติรุนแรงเพิ่มมากขึ้นให้นักธรณีเข้าตรวจสอบโครงสร้างบ่อเหมืองในพื้นที่อีกครั้ง</a>      
+                <a href="/GeologyEffect" class="list-group-item list-group-item-action">Yes-ตรวจสอบแล้วมีความรุนแรงเพิ่มขึ้น</a>
+                <a href="/GeologyNotEffect" class="list-group-item list-group-item-action">No-ตรวจสอบแล้วไม่มีความรุนแรงเพิ่มขึ้น</a>      
               </div>
             </div>
             <div class="col"/>
